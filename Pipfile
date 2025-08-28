@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+alembic = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+click = "*"
+SQLAlchemy = "*"
+alembic = "*"
+Faker = "*"
+
+[requires]
+python_version = "3.8"
+
